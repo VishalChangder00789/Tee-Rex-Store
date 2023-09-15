@@ -1,0 +1,122 @@
+.CartComponentContainer {
+  display: flex;
+  position: fixed;
+  left: 75%;
+  top: 10%;
+  /* border: 2px solid red; */
+  flex-wrap: wrap;
+  width: 22%;
+  border-radius: 14px;
+  box-shadow: 2px 2px 12px rgb(118, 118, 118);
+  justify-content: center;
+  align-items: center;
+  padding: 1%;
+  background: white;
+}
+
+.CartComponentContainer > div {
+  width: 80%;
+}
+
+.OutElement {
+  /* border: 2px solid red; */
+  position: fixed;
+  width: 100%;
+  min-height: 100%;
+  opacity: 1;
+  top: 0;
+}
+
+.CartItemContainer {
+  /* border: 2px solid salmon;   */
+  border-radius: 7px;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 2px 8px rgb(139, 139, 139);
+  color: black;
+  align-items: center;
+}
+
+.CartItemContainer :last-child {
+}
+
+.ImageContainer {
+  display: flex;
+  /* border: 2px solid yellow; */
+  height: 100%;
+  width: 20%;
+  margin-right: 5%;
+}
+
+.ImageContainer > img {
+  width: 100%;
+  height: 100%;
+}
+
+.ProductCartDetails {
+  /* border: 2px solid lawngreen; */
+  height: 100%;
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-right: 5%;
+}
+
+.QuantityControl {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 40%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-right: 2%;
+}
+
+.controlButton {
+  display: flex;
+  height: 100%;
+  /* border: 2px solid red; */
+  width: 50%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  background: rgb(198, 198, 198);
+  font-size: 24px;
+  font-weight: 400;
+  color: white;
+  border-radius: 7px;
+}
+
+.Quantity {
+  color: black;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(231, 230, 230);
+  height: 70%;
+  border-radius: 7px;
+}
+
+.CheckoutButton {
+  border: 2px solid yellow;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  height: 50px;
+  background: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+
+.CheckoutButton:hover {
+  cursor: pointer;
+}
