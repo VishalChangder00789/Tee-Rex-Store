@@ -1,0 +1,36 @@
+.ColorSelectContainer {
+  /* border: 2px solid rgb(0, 255, 229); */
+  width: 80%;
+  height: 150px;
+  overflow-y: auto;
+  display: flex;
+  /* align-items: center; */
+  flex-direction: column;
+  margin-top: 10%;
+}
+
+.ColorSelectContainer > label {
+  /* margin-top: 2%; */
+  font-weight: bolder;
+  /* border: 2px solid red; */
+  width: 100%;
+  position: sticky;
+  top: 0%;
+  background: white;
+}
+
+.ColorSelectContainer-Inner {
+  display: flex;
+  /* border: 2px solid green; */
+  width: 80%;
+  justify-content: space-around;
+  margin-top: 5%;
+  padding: 2%;
+  background: rgb(228, 228, 228);
+  border-radius: 7px;
+}
+
+.ColorSelectContainer :last-child {
+  /* border: 2px solid yellow; */
+  margin-bottom: 2%;
+}
