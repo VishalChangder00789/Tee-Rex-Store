@@ -1,0 +1,93 @@
+.HeaderContainer {
+  display: flex;
+  /* border: 2px solid red; */
+  height: 50px;
+  width: 100%;
+  background-color: rgb(226, 226, 226);
+  position: sticky;
+  top: 0;
+  box-shadow: 0px 0px 12px 2px rgb(119, 119, 119);
+  align-items: center;
+  justify-content: space-between;
+}
+
+.LogoContainer {
+  display: flex;
+  /* border: 2px solid green; */
+  height: 100%;
+  width: 6%;
+  margin-left: 4%;
+  align-items: center;
+  justify-content: center;
+}
+
+.LogoContainer > img {
+  height: 100%;
+  width: 100%;
+}
+
+.CartContainer {
+  display: flex;
+  /* border: 2px solid red; */
+  height: 80%;
+  width: 3%;
+  margin-right: 4%;
+  justify-content: center;
+  align-items: center;
+  /* border: 2px solid rgb(141, 140, 140); */
+  /* box-shadow: 0px 0px 5px rgb(157, 157, 157); */
+}
+
+.CartContainer > img {
+  display: flex;
+  height: 100%;
+  width: 100%;
+}
+
+.CartContainer :hover {
+  box-shadow: 0px 0px 5px rgb(157, 157, 157);
+}
+
+.NoItem {
+}
+
+.cartTotalItems {
+  font-weight: 700;
+  /* border: 2px solid red; */
+  border-radius: 50%;
+  height: 3.5%;
+  width: 1.8%;
+  position: fixed;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  right: 50px;
+  top: 25px;
+  background: sandybrown;
+}
+
+@media only screen and (max-width: 400px) {
+  .HeaderContainer {
+    display: flex;
+    border: 2px solid rgb(0, 255, 132);
+    height: 50px;
+    position: sticky;
+    justify-content: center;
+  }
+
+  .LogoContainer {
+    display: flex;
+    border: 2px solid green;
+    height: 100%;
+    width: 40%;
+    margin-left: 4%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .LogoContainer > img {
+    height: 100%;
+    width: 100%;
+  }
+}
