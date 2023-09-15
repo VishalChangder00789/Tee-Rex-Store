@@ -1,0 +1,11 @@
+.FilterComponentContainer {
+  display: flex;
+  width: 90%;
+  height: 85%;
+  box-shadow: 2px 2px 15px rgb(174, 174, 174);
+  border-radius: 5px;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  margin-top: 12%;
+}
